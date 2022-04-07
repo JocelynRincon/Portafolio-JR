@@ -1,0 +1,27 @@
+.tec{
+
+display: flex;
+justify-content: space-between;
+height: 45vh;
+margin: 3px;
+}
+.tic:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 360px) {
+
+    .title{
+        font-size: 1.2rem;
+    }
+    
+    .tec{
+        display: grid;
+        grid-template-columns: 1;
+        gap: 4rem;
+        width: 10px;
+        
+
+    }
+}
