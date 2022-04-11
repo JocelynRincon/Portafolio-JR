@@ -1,3 +1,53 @@
+PORTAFOLIO
+
+CONTEXT: Un portafolio online es la mejor manera de mostrar tu trabajo y permite que otras personas sepan más de ti. Además de esto, es una de las mejores formas para expresar tu personalidad, experiencia y capacidades.Este proyecto trata de crear tu portafolio online haciendo uso de HTML, CSS , JAVASCRIPT y REACT, se usará el  diseño de la marca personal.
+
+CONTENT: Este proyecto está contenido en la rama máster.
+
+DOCUMENTATION: Maquetación hecha con javascript, bootstrap, react.
+
+STATE OF PROJECT: requerimientos mínimos, terminados. El despliegue se encuentra disponible.
+
+PREVIEW:
+
+![PORT](https://user-images.githubusercontent.com/97619450/162662875-403ce390-7913-40b1-9bfe-08fb0c39d913.png)
+
+
+
+![PORTA](https://user-images.githubusercontent.com/97619450/162662900-e4dd232d-9e59-4c6c-b508-63c63d6dc4e6.png)
+
+
+
+DEPLOY: Para ver el portafolio da click aquí https://portafolio-jr-jocelynrincon.vercel.app/
+
+
+Autor: JOCELYN RINCÓN BARCELÓ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
