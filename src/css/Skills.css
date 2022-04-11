@@ -145,7 +145,7 @@ align-content: center;
         height: 19vh;
     }
 }
-/* @media screen and (min-width: 1063px){
+ @media screen and (max-width: 1300px){
     .tic{
         gap: 8rem;
     }
@@ -162,4 +162,4 @@ align-content: center;
         width: 100px;
     }
 
-} */
+} 
