@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from "../images/mariposas.png"
 import "../css/Header.css"
+import Cv from "../assets/cv/cv-JocelynRincon.pdf"
+
 
 
  const Header=() =>{
@@ -24,26 +26,27 @@ import "../css/Header.css"
           <div className="list-nav collapse navbar-collapse" id="navbarNav">
             <ul className=" navbar-nav">
               <li className="nav-item">
-                <navLink className="nav-link active" aria-current="page" to="#">
-                  Acerca De Mí                </navLink>
+                <a className="nav-link active" aria-current="page" href='#home'>
+                  Acerca De Mí            </a>
               </li>
               <li className="nav-item">
-                <navLink className="nav-link active" to="Proyects">
-                  Proyectos <a href="Proyects"> </a>
+                <navLink className="nav-link active" href="proyects">
+                  Proyectos <a href="#proyects"> </a>
                 </navLink>
               </li>
               <li className="nav-item">
-                <navLink className="nav-link active" to="Skills">
-                  Habilidades <a href="./Skills.jsx" > </a>
-                </navLink>
+                <a className="nav-link active" href="#skills">
+                  Habilidades 
+                </a>
               </li>
               <li className="nav-item">
-                <navLink className="nav-link active" to="#">
+                <a href={Cv} download={'cv-JocelynRincón'} className="nav-link active" >
                   Curriculum
-                </navLink>
+                </a>
+            
               </li>
             </ul>
-          </div>
+             </div>
         </div>
       </nav>
       </div>

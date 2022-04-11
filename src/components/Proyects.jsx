@@ -15,7 +15,7 @@ import  "../css/Proyects.css"
       <div className="card-body">
         <h5 className="card-title">Ecommerce</h5>
         <p className="card-text">Tecnologías usadas: React-Boostrap</p>
-        <a href="https://github.com/JocelynRincon/Mi-r-plica-web"> </a>
+        <a href="https://naughty-banach-fe5aa9.netlify.app/"> click aquí </a>
       </div>
       <div className="card-footer">
       </div>
@@ -27,6 +27,7 @@ import  "../css/Proyects.css"
       <div className="card-body">
         <h5 className="card-title">Toquen el Dom</h5>
         <p className="card-text"> Tecnologías usadas HTML5 - CSS3 - JavaScript </p>
+        <a href="https://github.com/diegoabt18/Toquen_el_Dom"> </a>
       </div>
       <div className="card-footer">
       </div>
@@ -34,11 +35,13 @@ import  "../css/Proyects.css"
   </div>
   <div className="col">
     <div className="card h-100">
-        <a href="https://github.com/JocelynRincon/Mi-r-plica-web"> </a>
-      <img src={repl} className="card-img-top" alt="..."/>
+             <img src={repl} className="card-img-top" alt="..."/>
       <div className="card-body">
+      
         <h5 className="card-title"> Mi Réplica Web</h5>
-        <p className="card-text">Tecnologías usadas HTML5 - CSS3</p>
+        <p className="card-text">Tecnologías usadas HTML5 - CSS3
+        </p>
+        <a href="https://github.com/JocelynRincon/Mi-r-plica-web"> </a>       
       </div>
       <div className="card-footer">
 

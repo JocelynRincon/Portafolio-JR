@@ -7,7 +7,7 @@ import "../css/Skills.css"
 
 const Skills = () => {
     return (
-        <div className='tic' id='habilidades'>
+        <div className='tic' id='skills'>
             
             
             <img className='tac' src={html} alt="" />

@@ -6,6 +6,7 @@ display: flex;
  width: 100%;
 height: 60vh;
 align-items: center;
+align-content: center;
 
 }
 
@@ -13,7 +14,7 @@ align-items: center;
 .tac{
     animation-name: exp;
     animation-duration:5s;
-    height: 35vh;
+    height: 33vh;
     animation-iteration-count: infinite;
 
 }
@@ -32,7 +33,7 @@ align-items: center;
 .tec{
     animation-name: exp;
     animation-duration:5s;
-    height: 35vh;
+    height: 33vh;
     animation-iteration-count: infinite;
 
 }
@@ -49,7 +50,7 @@ align-items: center;
 .toc{
     animation-name: exp;
     animation-duration:5s;
-    height: 35vh;
+    height: 33vh;
     animation-iteration-count: infinite;
 }
 @keyframes exp {
@@ -63,7 +64,7 @@ align-items: center;
 }
 
 .icon{
-    height: 35vh;
+    height: 33vh;
     fill: #00c8ff;
     animation-name: exp;
     animation-duration: 5s;
@@ -141,6 +142,24 @@ align-items: center;
     }
     .icon{
         animation: none;
-        height: 23vh;
+        height: 21vh;
     }
 }
+/* @media screen and (min-width: 1063px){
+    .tic{
+        gap: 8rem;
+    }
+    .tac{
+        width: 90px;
+    }
+    .tec{
+        width: 90px;
+    }
+    .toc{
+        width: 90px;
+    }
+    .icon{
+        width: 100px;
+    }
+
+} */
