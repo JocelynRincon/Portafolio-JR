@@ -92,7 +92,7 @@ align-content: center;
         display: grid;
         grid-template-columns: 1fr;
          gap: 4rem;
-        height: 80vh; 
+        height: 70vh; 
         width: 90%;   
         justify-content: center;  
         align-items: center;
@@ -148,18 +148,26 @@ align-content: center;
  @media screen and (max-width: 1300px){
     .tic{
         gap: 8rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        padding-left: 100px;
     }
     .tac{
         width: 90px;
+        height: 90px;
     }
     .tec{
         width: 90px;
+        height: 90px;
     }
     .toc{
         width: 90px;
+        height: 90px;
     }
     .icon{
         width: 96px;
+        height: 96px;
     }
 
 } 
