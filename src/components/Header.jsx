@@ -26,13 +26,13 @@ import Cv from "../assets/cv/cv-JocelynRincon.pdf"
           <div className="list-nav collapse navbar-collapse" id="navbarNav">
             <ul className=" navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href='#home'>
+                <a className="nav-link active" aria-current="page" href="#home">
                   Acerca De Mí            </a>
               </li>
               <li className="nav-item">
-                <navLink className="nav-link active" href="proyects">
-                  Proyectos <a href="#proyects"> </a>
-                </navLink>
+                <a className="nav-link active" href="#proyects">
+                  Proyectos </a>
+                
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="#skills">
