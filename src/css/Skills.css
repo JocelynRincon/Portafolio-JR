@@ -121,7 +121,7 @@ align-content: center;
         gap: 3rem;
         width: 90%;
         height: 80vh;    
-        margin-left: 50px;
+        /* margin-left: 50px; */
 
     }
     .tac{
@@ -159,7 +159,7 @@ align-content: center;
         width: 90px;
     }
     .icon{
-        width: 100px;
+        width: 96px;
     }
 
 } 

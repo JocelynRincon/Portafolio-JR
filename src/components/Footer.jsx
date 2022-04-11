@@ -11,7 +11,7 @@ const Footer = () => {
                     
                     <h3>Jocelyn Rincón <i className="bi bi-dot"></i> 2022</h3>                </div>
             </div>
-            {/* <p className="autor">Jocelyn Rincón - 2022</p> */}
+            
         </footer>
     )
 
