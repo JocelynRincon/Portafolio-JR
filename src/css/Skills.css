@@ -1,14 +1,85 @@
-.tec{
+.tic{
 
 display: flex;
-justify-content: space-between;
-height: 45vh;
-margin: 3px;
+ justify-content: center; 
+ gap: 13rem;
+ width: 100%;
+height: 60vh;
+align-items: center;
+
 }
-.tic:hover{
-    transform: scale(1.1);
-    overflow: hidden;
+
+
+.tac{
+    animation-name: exp;
+    animation-duration:5s;
+    height: 35vh;
+    animation-iteration-count: infinite;
+
 }
+@keyframes exp {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+    
+} 
+
+
+
+.tec{
+    animation-name: exp;
+    animation-duration:5s;
+    height: 35vh;
+    animation-iteration-count: infinite;
+
+}
+@keyframes exp {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(0.1);
+    }
+    
+}
+
+.toc{
+    animation-name: exp;
+    animation-duration:5s;
+    height: 35vh;
+    animation-iteration-count: infinite;
+}
+@keyframes exp {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+    
+}
+
+.icon{
+    height: 35vh;
+    fill: #00c8ff;
+    animation-name: exp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes exp {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.0);
+    }
+    
+} 
+
+/* Responsive */
 
 @media screen and (max-width: 360px) {
 
@@ -16,12 +87,60 @@ margin: 3px;
         font-size: 1.2rem;
     }
     
-    .tec{
+    .tic{
         display: grid;
-        grid-template-columns: 1;
-        gap: 4rem;
-        width: 10px;
-        
+        grid-template-columns: 1fr;
+         gap: 4rem;
+        height: 80vh; 
+        width: 90%;   
+        justify-content: center;  
+        align-items: center;
 
+    }
+    .tac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .icon{
+        height: 20;
+    }
+}
+
+@media screen and (max-width: 1062px) {
+
+    .title{
+        font-size: 1.2rem;
+    }
+    
+    .tic{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        width: 90%;
+        height: 80vh;    
+        margin-left: 50px;
+
+    }
+    .tac{
+        display: flex;
+        animation: none;
+        height: 25vh;
+        
+    }
+
+    .tec{
+        animation: none;
+        height: 25vh;
+       
+    }
+    .toc{
+        animation: none;
+        height: 25vh;
+    }
+    .icon{
+        animation: none;
+        height: 23vh;
     }
 }
