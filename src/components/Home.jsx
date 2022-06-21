@@ -5,9 +5,11 @@ const Home = () => {
   return (
     <div className="home">
       <br/>
+      <div className="typing-demo">
+       
       <span className="me-text" id="about" >
      <br/> Bienvenid@ a mi mundo<i className="bi bi-pin-angle"></i> <br></br>
-      Soy Jocelyn Rincón <br/>
+       Soy Jocelyn Rincón <br/>
        Desarrolladora Full Stack.  <br/>
           
           <i className="bi bi-balloon"></i>
@@ -15,6 +17,7 @@ const Home = () => {
           <br/> <br/> <br/>
       </span>
       
+      </div>
     </div>
   );
 };
